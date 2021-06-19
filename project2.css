@@ -1,0 +1,382 @@
+
+		.div{
+			font-family:calibri;
+			
+		}
+
+		#parent{
+			display:flex;
+			background-color:rgb(238,240,242);
+			height:30px;		
+			
+		}
+		
+		.mini{
+			font-size:13px;
+			width:50%;
+			box-sizing:border-box;
+			
+		}
+		
+		ul{
+			list-style-type:none;
+		}
+		
+		ul li{
+			display:inline-block;
+			margin-right: 40px;
+						
+		}
+		
+		a{
+			text-decoration:none;
+		}
+		
+		ul li a{
+			color:rgb(124,124,124);	
+			}
+		
+		#head{
+			font-size:12px;
+			font-weight:bold;
+			margin-top:20px;
+		}
+		
+		#head2{
+			margin-top:25px;
+		}
+		
+		input[type='button'] {
+				border-radius:15px;
+				border:0px solid red;
+				font-size:12px;
+				padding:10px;
+				color:white;
+				margin-right:7px;
+				background-color:rgb(182,3,15);
+		}
+		
+		#header{
+			display:flex;
+			justify-content:space-around;
+			overflow:auto;
+		}
+		
+		#logo{
+			margin-top:10px;
+			margin-left:15px;
+		}
+		
+		#search{
+			width:120px;
+			border:1px solid rgb(52,45,47);
+			margin-bottom:25px;
+			border-radius:15px;
+			color:rgb(197,197,197);
+			font-size:12px;
+			padding:7px;
+			text-align:center;
+			margin-left:15px;
+			
+		}
+		
+		#background{
+			background-image:url(images/smilingblacklady.jpg);
+			background-size:cover;
+			background-repeat:no-repeat;
+			width:100%;
+			height:600px;
+			display:flex;
+			justify-content:space-between;
+			background-color:rgba(125,113,113,0.7);
+		}
+		
+		#subhead{
+			width:50%;
+			padding:20px;
+			margin-left:100px;
+			margin-top:50px;
+			color:rgb(52,45,47);
+			
+		}
+		
+		.subhead2{
+			color:white;
+			font-size:13px;
+			background-color:rgb(52,45,47);
+			padding:5px;
+			display:inline-block;
+			width:120px;
+			margin-top:50px;
+		}
+		
+		.form{
+			display:block;
+			width:200px;
+			color:grey;
+			background-color:white;
+			border:1px solid grey;
+			font-size:11px;
+			margin:0px;
+			padding:15px;
+			font-weight:bold;
+		}
+	
+		#form{
+			margin-top:70px;
+		}
+		
+		.class{
+			display:block;
+		}
+		
+		#bank{
+			width:600px;
+			height:470px;
+			margin-left:400px;
+			
+		}
+		
+		.bank{
+			font-size:13px;
+			color:red;
+			font-weight:bold;
+		}
+		#bank p{
+			font-size:14x;
+			margin-bottom:50px;
+			color:rgb(52,45,47);
+		}
+		
+		#bank h1{
+			text-align:center;	
+		}
+		
+		#question{
+			background-color:rgb(227,0,15);
+			height:370px;
+		}
+		
+		#questions{
+			width:670px;
+			height:500px;
+			margin-left:360px;
+			padding:40px;
+			
+		}
+		
+		#questions p{
+			font-size:14x;
+			margin-bottom:50px;
+		}
+		
+		#questions h1{
+			text-align:center;
+		}
+		
+		#learn{
+			width:150px;
+			padding:13px;
+			font-size:13px;
+			background-color:white;
+			text-align:center;
+			margin-left:250px;	
+		}
+		
+		#subfooter{
+			display:flex;
+			flex-wrap:no-wrap;
+			height: 150px;
+		}
+		
+		#links{
+			width:25%;
+			margin-top:50px;
+			text-align:center;
+		}
+		
+		#links2 li{
+			width:25%;
+			height:10px;
+			margin-top:20px;	
+		}
+		
+		#footer{
+			display:flex;
+			
+		}
+		
+		.footer{
+			width:20%;
+			box-sizing:border-box;
+			height:300px;
+			font-size:13px;	
+			
+			padding:20px;
+		}
+		
+		.footer h5{
+			
+		}
+		
+		.footer a{
+			display:block;
+			margin:5px;
+			color:rgb(47,47,47);
+		}
+		
+		#news{
+			width:30%;
+		}	
+		
+		#privacy{
+			margin:50px;
+			font-size:13px;
+		}
+		
+		#icons{
+				display:flex;
+				height:150px;
+			}
+			
+		.icons{
+			width:25%;
+			height:70px;
+			padding:40px;
+			font-size:11px;
+			font-weight:bold;
+			box-sizing:border-box;
+			}
+			
+		#account{
+			height:570px;
+			display:flex;
+			justify-content:space-between;
+			background-color:rgb(125,113,113)
+		}
+		
+		#account2{
+			width:40%;
+			padding:20px;
+			margin-left:100px;
+			margin-top:140px;
+		}
+		
+		.learnmore{
+			color:black;
+			font-size:13px;
+			background-color:grey;
+			padding:15px;
+			display:inline-block;
+			width:120px;
+			margin:15px 20px 0px 0px ;
+			text-align:center;
+		}
+		
+		
+		#internet{
+			width:670px;
+			height:500px;
+			margin-left:360px;
+			padding:40px;	
+		}
+		
+		#internet p{
+			font-size:14x;
+			margin-bottom:50px;
+		}
+		
+		#learnmore{
+			width:150px;
+			padding:13px;
+			font-size:13px;
+			background-color:white;
+			text-align:center;		
+		}
+		
+		#develop{
+			background-image:url(images/development.mp4);
+			background-color:grey;
+			height:370px;
+		}
+		
+		#development{
+			width:670px;
+			height:500px;
+			margin-left:360px;
+			padding:40px;
+			
+		}
+		
+		#development p{
+			font-size:14x;
+			margin-bottom:50px;
+			text-align:center;
+		
+		}
+		
+		#development h1{
+			text-align:center;
+		}
+		
+		#more{
+			width:150px;
+			padding:13px;
+			font-size:13px;
+			background-color:transparent;
+			border:2px solid white;
+			text-align:center;
+			margin-left:250px;	
+		}
+		
+		.visions{
+			background-color:grey;
+			display:flex;
+			justify-content:center;
+			height:450px;	
+		}
+		
+		.vision1{
+			
+			
+		}
+		
+		.vision2{
+			
+			
+		}
+		
+		.vision{
+			width:530px;
+			margin:30px 40px;
+			
+		}
+		
+		#people{
+			width:550px;
+			margin-left:370px;
+		}
+		
+		#people2{
+			display:flex;
+			justify-content:center;
+			
+		}
+		
+		.division{
+			width:550px;
+			margin:0px 20px 20px 20px;
+		}
+		#parent2{
+			overflow:auto;
+			background-color:snow;
+		}
+		
+	#quality{
+		background-color:silver;
+	}
+	#quality2{
+		width:700px;
+		text-align:center;
+		margin-left:370px;
+	}
